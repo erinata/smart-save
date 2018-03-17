@@ -1,0 +1,17 @@
+{
+  "name": "smart-save",
+  "main": "./lib/smart-save",
+  "version": "0.1.0",
+  "description": "Make saving untitled buffer behaves like Sublime Text.",
+  "keywords": [
+    "file",
+    "save",
+    "untitled"
+  ],
+  "repository": "https://github.com/erinata/smart-save",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

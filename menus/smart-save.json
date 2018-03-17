@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Smart Save",
+        "command": "smart-save:smart save"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Smart Save",
+          "submenu": [
+            {
+              "label": "Smart Save",
+              "command": "smart-save:smart save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
