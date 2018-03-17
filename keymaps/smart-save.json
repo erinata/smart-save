@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "cmd-s": "smart-save:smart-saveto",
-    "shift-cmd-s": "smart-save:smart-saveas"
+    "cmd-s": "smart-save:smart-save",
+    "shift-cmd-s": "smart-save:smart-save-as"
   }
 }

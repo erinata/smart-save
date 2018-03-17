@@ -1,12 +1,14 @@
 # Smart Save
 
-Make saving untitled buffer behaves like Sublime Text.
+This package set the path of the untitled buffer to the path of the last file viewed. In other words, it behaves like Sublime Text. 
 
 ## Basics
 
-The default behavior of "Save As" in Atom editor is really annoying. It saves the file at the root of the project. Instead, the Smartsave package will set the path of an unsaved buffer according to the path of the last file the editor was focusing on. This behavior is inspired by Sublime Text editor. Of course there should still be glitches but I try to mimic the behavior as close as possible.
+The default behaviour of "Save" and "Save As" in Atom editor is really annoying. It saves the file at the root of the project. The Smart Save package will set the path of an unsaved buffer according to the path of the last file the editor was focusing on. This behaviour is inspired by the Sublime Text editor. There are still some glitches, but I try to mimic the behaviour as close as possible.
+
+If the untitled buffer is it not empty, the package will use the text in the first row as the filename.
 
 
 ## Default Keymap
 
-By default this package will override the original keymap for "save" and "save as"( "cmd+s" and "shift+cmd+s"). You can remap the keymap if you need the original "save" and "save as".
+By default this package will override the original keymap for "Core: Save" and "Core: Save As"( "cmd+s" and "shift+cmd+s"). You can remap the keymap if you need the original commands.
