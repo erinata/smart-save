@@ -3,7 +3,11 @@
     "atom-text-editor": [
       {
         "label": "Smart Save",
-        "command": "smart-save:smart save"
+        "command": "smart-save:smart-save-to"
+      },
+      {
+        "label": "Smart Save As",
+        "command": "smart-save:smart-save-as"
       }
     ]
   },
@@ -16,7 +20,11 @@
           "submenu": [
             {
               "label": "Smart Save",
-              "command": "smart-save:smart save"
+              "command": "smart-save:smart-save-to" 
+            },
+            {
+              "label": "Smart Save As",
+              "command": "smart-save:smart-save-as"
             }
           ]
         }

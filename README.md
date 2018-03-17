@@ -13,7 +13,6 @@ By default this package will override the original keymap for "save as", which i
 
 # TODO
 
-1. Deal with the case when "save" acts like "save as" when the buffer is untitled. 
-2. Optimization. 
-3. Use the first line of the buffer to guess the file name.
+1. Optimization. (There are too many unnecessary atom.workspace calls.)
+2. Use the first line of the buffer to guess the file name.
 
