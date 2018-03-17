@@ -9,10 +9,4 @@ The default behavior of "Save As" in Atom editor is really annoying. It saves th
 
 ## Default Keymap
 
-By default this package will override the original keymap for "save as", which is "cmd+shift+s". You can remap the keymap if you need the original "save as".
-
-## TODO
-
-1. Optimization. (There are too many unnecessary atom.workspace calls.)
-2. Use the first line of the buffer to guess the file name.
-
+By default this package will override the original keymap for "save" and "save as"( "cmd+s" and "shift+cmd+s"). You can remap the keymap if you need the original "save" and "save as".
