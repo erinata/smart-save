@@ -11,4 +11,4 @@ If the untitled buffer is it not empty, the package will use the text in the fir
 
 ## Default Keymap
 
-By default this package will override the original keymap for "Core: Save" and "Core: Save As"( "cmd+s" and "shift+cmd+s"). You can remap the keymap if you need the original commands.
+By default this package will override the original keymap for "Core: Save" and "Core: Save As"( "cmd+s", "shift+cmd+s" for Mac and "ctrl-s","ctrl-shift-s" for Windows and Linux ). You can remap the keymap if you need the original commands.

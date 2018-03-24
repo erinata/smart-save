@@ -1,6 +1,12 @@
 {
-  "atom-workspace": {
+  ".platform-darwin atom-text-editor": {
     "cmd-s": "smart-save:smart-save",
     "shift-cmd-s": "smart-save:smart-save-as"
+  },
+  ".platform-linux atom-text-editor, .platform-win32 atom-text-editor": {
+    "ctrl-s": "smart-save:smart-save",
+    "ctrl-shift-s": "smart-save:smart-save-as"
   }
 }
+
+
