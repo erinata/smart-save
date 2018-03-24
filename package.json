@@ -1,7 +1,7 @@
 {
   "name": "smart-save",
   "main": "./lib/smart-save",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Make saving untitled buffer behaves like Sublime Text.",
   "keywords": [
     "file",
